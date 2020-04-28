@@ -31,7 +31,7 @@
 
     "post-processors": [[ {
         "type": "docker-tag",
-        "repository": "docker.io/lordchou/nginx-packer",
+        "repository": "docker.io/jes8040/nginx-packer",
         "tag": "1.0.0"
     } ]]
 }
