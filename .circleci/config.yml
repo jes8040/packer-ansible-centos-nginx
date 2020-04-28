@@ -11,7 +11,7 @@ jobs:
       
       - run:
           name: Install packer to build
-          command: sudo wget https://releases.hashicorp.com/packer/1.4.4/packer_1.4.4_linux_amd64.zip -O /opt/packer.zip
+          command: sudo wget https://releases.hashicorp.com/packer/1.5.5/packer_1.5.5_linux_amd64.zip -O /opt/packer.zip
 
       - run:
           name: Unzip Packer
