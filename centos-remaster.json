@@ -31,7 +31,7 @@
 
     "post-processors": [[ {
         "type": "docker-tag",
-        "repository": "docker.io/jes8040/nginx-packer",
+        "repository": "docker.io/jes8040/packer-ansible-centos-nginx",
         "tag": "1.0.0"
     } ]]
 }
