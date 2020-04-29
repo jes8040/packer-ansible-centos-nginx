@@ -10,20 +10,7 @@
     }],
 
     "provisioners": [
-    {
-        "type": "file",
-        "source": "masak.sh",
-        "destination": "/usr/bin/masak.sh"
-    },
-        
-    {
-        "type": "shell",
-        "inline": [
-            "chmod 755 /usr/bin/masak.sh"
-          ]
-    },
-
-    {
+      {
         "type": "ansible",
         "user": "root",
         "playbook_file": "provision.yml"
