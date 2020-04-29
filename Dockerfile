@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER kevinchou
+MAINTAINER jesgonzales
 
 LABEL Vendor="CentOS" \
       License=GPLv2 \
